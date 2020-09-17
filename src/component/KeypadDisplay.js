@@ -7,11 +7,11 @@ export default class keypad extends Component {
         <button name="C" onClick={(e) => this.props.onClick(e.target.name)}>
           C
         </button>
-        <button name="CE" onClick={(e) => this.props.onClick(e.target.name)}>
-          CE
-        </button>
         <button name="%" onClick={(e) => this.props.onClick(e.target.name)}>
           %
+        </button>
+        <button name="CE" onClick={(e) => this.props.onClick(e.target.name)}>
+          &#9003;
         </button>
         <button
           className="btn-pink"
