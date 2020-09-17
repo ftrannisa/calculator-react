@@ -5,7 +5,7 @@ export default class resultDisplay extends Component {
     let { result } = this.props;
     return (
       <div className="result">
-        <p>{result}</p>
+        <p>{result.slice(0, 17)}</p>
       </div>
     );
   }
